@@ -70,6 +70,5 @@ Here are the columns.
 </tr><td><td>65</td><td>fBodyBodyGyroJerkMag std</td><td>Body Body Gyroscope Jerk Magnitude Standard Deviation</td>
 </table>
 
-AverageTable.txt shows the averages for each of the measurements.
-Variable & Average.
+AverageTable.txt shows the averages for each of the measurements. The columns are: Variable & Average.
 
