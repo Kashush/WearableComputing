@@ -68,6 +68,6 @@ Column	Column Name			Definition
 64	fBodyBodyGyroJerkMag mean	Body Body Gyroscope Jerk Magnitude Average
 65	fBodyBodyGyroJerkMag std	Body Body Gyroscope Jerk Magnitude Standard Deviation
 
-AverageTable.csv shows the averages for each of the measurements.
-Column Name & Average Values.
+AverageTable.txt shows the averages for each of the measurements.
+Variable & Average.
 
