@@ -1,4 +1,7 @@
 run_analysis<-function(){
+
+    library(dplyr)
+    
     #Read features.txt into a table in order to get the column headings for the raw data
     setwd("C:/Users/Corina/Dropbox/Data Science Specialization/Getting and Cleaning Data/getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset")
     tbl<-read.table("features.txt", sep="-", header=FALSE, fill = TRUE)
@@ -30,8 +33,9 @@ run_analysis<-function(){
     names(totalData)<-sub("\\s+$", "", paste(gsub("[[:space:]]", "", gsub("[[:digit:]]", "",tbl[colHeadings,1])), gsub("()", "", tbl[colHeadings,2], fixed=TRUE), tbl[colHeadings, 3], sep=" "))
     
     #Summarize the data. Average each measurement.
-    AverageTable<-colMeans(totalData, na.rm=TRUE)
+    AverageTable<-tbl_df(as.data.frame(cbind(names(totalData), colMeans(totalData, na.rm = TRUE))))
+    names(AverageTable)<-c("Variable", "Average")
 
     #Write out the table of Averages.
-    write.table(AverageTable, file="AverageTable.csv", sep=",")
+    write.table(AverageTable, file="AverageTable.txt", sep=",", row.names = FALSE)
 }
