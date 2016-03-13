@@ -1,4 +1,4 @@
-The Tidy data set contains averages and standard deviatoins from test data and traning data.
+The Tidy data set contains averages and standard deviatoins from test data, <i>X_test.txt</i> and traning data, <i>X_train.txt</i>.
 Here are the columns.
 
 <table id=Variable>
