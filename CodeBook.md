@@ -77,6 +77,6 @@ Summary.txt shows the averages for each of the measurements. The columns are: Va
 </tr><td><td>Column</td><td>Variable Name</td><td>Definition</td>
 </tr><td><td>1</td><td>Subject</td><td>The person being tested</td>
 </tr><td><td>1</td><td>Activity</td><td>The task that the test subject was doing during the variable measurements</td>
-</tr><td><td>1</td><td>Variable/td><td>What was being measured (metadata)</td>
+</tr><td><td>1</td><td>Variable</td><td>What was being measured (metadata)</td>
 </tr><td><td>2</td><td>mean(value)</td><td>The Average value for the subject, activity and variable.</td>
 </table>
