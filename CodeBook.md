@@ -1,8 +1,10 @@
-The Tidy data set contains averages and standard deviatoins from test data, <i>X_test.txt</i> and traning data, <i>X_train.txt</i>.
-Here are the columns.
+The Tidy data set contains averages and standard deviations from test data, <i>X_test.txt</i> and traning data, <i>X_train.txt</i>.
+Here are the measurements.
 
 <table id=Variable>
-</tr><td><td>Column</td><td>Column Name</td><td>Definition</td>
+</tr><td><td>Column</td><td>Variable Name</td><td>Definition</td>
+</tr><td><td>1</td><td>Subject</td><td>The person being tested</td>
+</tr><td><td>1</td><td>Activity</td><td>The task that the test subject was doing during the variable measurements</td>
 </tr><td><td>1</td><td>tBodyAcc mean Y</td><td>Body Accelerometer Average Y</td>
 </tr><td><td>2</td><td>tBodyAcc mean Z</td><td>Body Accelerometer Average Z</td>
 </tr><td><td>3</td><td>tBodyAcc std X</td><td>Body Accelerometer Standard Deviation X</td>
@@ -70,5 +72,11 @@ Here are the columns.
 </tr><td><td>65</td><td>fBodyBodyGyroJerkMag std</td><td>Body Body Gyroscope Jerk Magnitude Standard Deviation</td>
 </table>
 
-AverageTable.txt shows the averages for each of the measurements. The columns are: Variable & Average.
-
+Summary.txt shows the averages for each of the measurements. The columns are: Variable & Average.
+<table id=Summary>
+</tr><td><td>Column</td><td>Variable Name</td><td>Definition</td>
+</tr><td><td>1</td><td>Subject</td><td>The person being tested</td>
+</tr><td><td>1</td><td>Activity</td><td>The task that the test subject was doing during the variable measurements</td>
+</tr><td><td>1</td><td>Variable/td><td>What was being measured (metadata)</td>
+</tr><td><td>2</td><td>mean(value)</td><td>The Average value for the subject, activity and variable.</td>
+</table>
